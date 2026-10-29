@@ -1,0 +1,159 @@
+/* ------------------------------fonts------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Indie+Flower&family=Nova+Square&display=swap');
+
+.fjalla-one-regular, body {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+.nova-square-regular, #blender h2, #blender h3 {
+  font-family: "Nova Square", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.indie-flower-regular, #photos h2, #inspo h2, footer h3 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+h1
+{
+  font-size: 80px;
+}
+h2
+{
+  font-size: 50px;
+}
+/* ------------------------------body------------------------------ */
+body
+{
+    background-color: black;
+}
+header
+{
+    color: #6000ff;
+    background-image: url(../Images/Collage.jpg);
+    min-height: 75vh;
+    background-size: cover;
+    background-position: bottom;
+}
+#photos
+{
+    color: #6000ff;
+    text-align: center;
+}
+#EthanPic
+{
+   max-width: 450px;
+
+}
+
+#PhotoRow
+{
+  background-color: #6000ff;
+}
+#BlenderHead
+{
+  background-image: url(../Images/Cube.svg);
+  min-height: 28vh;
+  background-size: cover;
+  background-position: top;
+  color: black;
+}
+#blender 
+{
+color: #0007ff;
+}
+#cubetext
+{
+  color: #0019ce;
+}
+#InspoHead
+{
+background-color: #9b00ff;
+}
+#inspo
+{
+  color: black;
+}
+#inspo p
+{
+  color: #9b00ff;
+}
+
+footer
+{
+  background-color: #6000ff;
+  color: black;
+}
+footer i
+{
+  font-size: 4rem;
+  color: black;
+  -webkit-text-fill-color: #6000ff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+
+/* .carouselContainer
+{
+    max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.carousel
+{
+display: none;
+}
+.prev, .next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+} */

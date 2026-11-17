@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fjalla+One&display=swap');
+.fjalla-one-regular, body
+{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.caveat-brush-regular, h1, a, h3
+{
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+:root
+{
+    --bs-dark: #000000;
+    --bs-dark-rgb: 0, 0, 0;
+    --bs-success: #006915;
+    --bs-success-rgb:0, 105, 21;
+}
+body
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+header
+{
+    background-image: url(../images/japanese.JPG);
+    min-height: 75vh;
+    background-position: left;
+}
+#headerlogo
+{
+    margin-top: 30vh;
+
+}
+nav a img
+{
+        max-width: 50%;
+}
+nav ul li
+{
+float: left;
+}
+a
+{
+    color: #ffffff;
+}
+a:hover
+{
+color: black;
+}
+footer ul
+{
+    list-style-type: none;
+}
+footer a
+{
+text-decoration: none;
+display: block;
+}
